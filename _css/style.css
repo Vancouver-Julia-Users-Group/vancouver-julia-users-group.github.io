@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'Tex Gyre Pagella';
+    src:
+         url('/assets/fonts/texgyrepagella-bold-webfont.woff') format('woff'),
+         url('/assets/fonts/texgyrepagella-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex Gyre Pagella';
+    src:
+         url('/assets/fonts/texgyrepagella-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/texgyrepagella-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex Gyre Pagella';
+    src:
+         url('/assets/fonts/texgyrepagella-italic-webfont.woff') format('woff'),
+         url('/assets/fonts/texgyrepagella-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tex Gyre Pagella';
+    src:
+         url('/assets/fonts/texgyrepagella-bolditalic-webfont.woff') format('woff'),
+         url('/assets/fonts/texgyrepagella-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
 :root {
     --background: #111;
     --foreground: #eee;
@@ -5,7 +41,7 @@
     --link-lo: rgba(177, 189, 237, 25%);
     --link-hi: rgba(177, 189, 237, 75%);
     font-family: "TeX Gyre Pagella", serif;
-    font-size: 12pt;
+    font-size: 14pt;
     line-height: 150%;
 }
 
