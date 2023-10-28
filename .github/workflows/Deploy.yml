@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -18,7 +17,7 @@ jobs:
     - name: Install python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'
+        python-version: '3.11'
     # NOTE: Here you can install dependencies such as matplotlib if you use
     # packages such as PyPlot.
     # - run: pip install matplotlib
@@ -39,9 +38,8 @@ jobs:
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
             using Franklin;
             optimize()'
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: __site
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./__site

@@ -7,7 +7,7 @@ The format is:
 
 1. A thirty minute informal presentation on something Julia related.
 
-Volunteers are encouraged! See [here](/present) for instructions. This could be a project you're working on, an explanation of a feature of the language, a demonstration of a neat package you found, or something else.
+Volunteers are encouraged! See [here](https://github.com/Vancouver-Julia-Users-Group/vancouver-julia-users-group.github.io) for instructions. This could be a project you're working on, an explanation of a feature of the language, a demonstration of a neat package you found, or something else.
 
 2. An hour+ of project time. 
 
@@ -17,4 +17,8 @@ It's common to hear with Julia that there's interest in learning, but it's hard 
 
 ### November 11, 2023
 
-UBC Robson Square, Room C225, from 6-8pm. 
+UBC Robson Square, Room C225, from 6--8pm.
+
+[Presenter: Mia Kramer](/presentations/2023-11-22).
+
+## Past Meetings
