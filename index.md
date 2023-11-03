@@ -15,7 +15,7 @@ It's common to hear with Julia that there's interest in learning, but it's hard 
 
 ## Upcoming Meetings
 
-### November 11, 2023
+### November 22, 2023
 
 UBC Robson Square, Room C225, from 6--8pm.
 
